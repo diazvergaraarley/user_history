@@ -45,3 +45,10 @@ print("-")
 
 #3:
 
+numA= [1, 2, 3]
+numB= [4, 5, 6]
+print(numA, numB)
+
+    #a.
+numC= numA.copy()
+print("a. Copy of list 1:", numC)
