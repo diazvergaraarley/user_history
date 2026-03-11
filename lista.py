@@ -19,7 +19,7 @@ print("c.", fruits)
 fruits.pop()
 print("d.", fruits)
 
-print("-")
+print("-----------------------")
 
 #2:
     #numbers list
@@ -41,7 +41,7 @@ print("c. Counting number '2': ", counting)
 positioning= numbers.index(7)
 print("d.Position of number '7': ", positioning)
 
-print("-")
+print("-----------------------")
 
 #3:
     #lists a & b
@@ -59,7 +59,7 @@ numC.extend(numB)
     #c. final list
 print("c. Extended list: ", numC)
 
-print("-")
+print("-----------------------")
 
 #4:
 
