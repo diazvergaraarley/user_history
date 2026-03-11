@@ -1,4 +1,4 @@
-#Ejercicios de listas y diccionarios
+#Ejercicios de listas
 #1:
     #fruits list:
 fruits= ["Banana", "Apple", "Watermelon", "Pineapple", "Strawberry"]
@@ -44,11 +44,35 @@ print("d.Position of number '7': ", positioning)
 print("-")
 
 #3:
-
+    #lists a & b
 numA= [1, 2, 3]
 numB= [4, 5, 6]
-print(numA, numB)
+print("lists: ", numA, "," , numB)
 
-    #a.
+    #a. copy
 numC= numA.copy()
 print("a. Copy of list 1:", numC)
+
+    #b. extend 
+numC.extend(numB)
+
+    #c. final list
+print("c. Extended list: ", numC)
+
+print("-")
+
+#4:
+
+    #students list
+students = ["Ana", "Carlos", "María", "Luis", "Sofía", "Pedro", "Valentina"]
+
+    #a. show list 
+print("a. Students list: ", students)
+
+    #b. clear
+cleanlist= students.copy()
+cleanlist.clear()
+print("b. Clear list: ", cleanlist)
+
+    #c. show list again
+print("c. Show list again: ", students)
