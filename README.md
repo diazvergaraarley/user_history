@@ -27,3 +27,4 @@ Thank you for your purchase
 
 ====================
 
+The application is working correctly.
