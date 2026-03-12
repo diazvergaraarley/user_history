@@ -1,7 +1,7 @@
 # Simple Inventory Program
 
 ## Description
-This Python basic program allows the user to register a product by entering its **name**, **price**, and **quantity**. So it does allow to enter the **customer_name** as a first input. 
+This Python Basic program allows the user to register a product by entering its **name**, **price**, and **quantity**. So it does allow to enter the **customer_name** as a first input. 
 It calculates the **total cost** of the product and displays a **formatted invoice** in the console. 
 The program includes **input validation** to ensure that the price and quantity are numeric and non-negative. 
 Decimals are displayed **only if necessary**, by adding :g at the end of the output functions over the float variables, making the invoice clean and easy to read.
