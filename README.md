@@ -1,30 +1,21 @@
 # Simple Inventory Program
 
 ## Description
-This Python Basic program allows the user to register a product by entering its **name**, **price**, and **quantity**. So it does allow to enter the **customer_name** as a first input. 
-It calculates the **total cost** of the product and displays a **formatted invoice** in the console. 
-The program includes **input validation** to ensure that the price and quantity are numeric and non-negative. 
-Decimals are displayed **only if necessary**, by adding :g at the end of the output functions over the float variables, making the invoice clean and easy to read.
+This project is a simple Python program that registers a product and generates a basic invoice.  
+It is a beginner-friendly program designed to practice user input, validation, and basic calculations in Python.
 
-## Features
-- Ask the user for product name, price, and quantity
-- Validate that price and quantity are numeric and not negative
-- Calculate total cost (price * quantity)
-- Display a clear invoice in console format
-- Format numbers to show decimals only when needed
-- Reusable function print_invoice() to print any product's invoice
+The program is a small inventory tool that asks the user for product information and calculates the final cost.  
+It is useful for understanding how variables, loops, and functions work in Python.
 
-By runing the code and entering with the keyboard all the required information, it prompts an invoice that looks like this:
+## How it works
 
-=======INVOICE======
-Customer name: Arley
-Product: Bread
-Price: $1235.5
-Quantity: 6
-Final total: $7411
+1. The program asks the user to enter the customer name and the product name.
+2. The program requests the product price and validates the input using a loop and a try-except block.
+3. The system checks if the price is a valid positive number.
+4. The program asks for the product quantity and validates that the input is an integer greater than zero.
+5. The program calculates the total cost by multiplying the price by the quantity.
+6. The function `print_invoice()` prints a formatted invoice showing the customer name, product, price, quantity, and final total.
 
-Thank you for your purchase
+## Status
 
-====================
-
-The application is working correctly.
+> The program is currently running as a simple console application and is demonstrating how Python processes user input and generates an invoice.
