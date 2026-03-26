@@ -68,3 +68,4 @@ print_invoice(customer_name, name, price, quantity, total_cost)
 # price, and quantity. It validates that the price and quantity are numeric
 # and non-negative. Then it calculates the total cost (price * quantity)
 # and prints a formatted invoice showing all the details in a clear manner.
+#
