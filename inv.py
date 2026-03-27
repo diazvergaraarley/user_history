@@ -46,7 +46,7 @@ def add_product():
         "quantity": quantity
     }
 
-    # The product is appended to the global inventory list
+    # The product is added to the global inventory list
     inventory.append(product)
     print("Product succesfully added")
 
@@ -100,3 +100,9 @@ while True:
     else:
         # This should never happen due to validation in menu()
         print("Invalid option")
+        
+# Final Comment:
+# This program shows the use of conditionals, loops, and functions
+# to build a simple inventory management system. It uses lists and dictionaries
+# to store data, applies input validation with try-except blocks, and performs
+# basic calculations such as total inventory value and total quantity of products.
